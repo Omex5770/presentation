@@ -1,0 +1,139 @@
+
+.header{
+	padding:15px 0;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position:sticky;
+	top:0;
+	background-color:#171D34;
+	z-index:999;
+}
+.header .menu li{
+	display:inline-block;
+	margin-right:300px;
+	position:sticky;
+	
+}
+.header .menu a{
+	color:black;
+	font-size:25px;
+	text-decoration:none;
+	position:sticky;
+}
+.header .menu h2{
+	color:white;
+}
+.home, .about, .service, .contact{
+	height:100vh;
+}
+.home{
+	background-color:#fff;
+}
+.about{
+	background-color:brown;
+}
+.service{
+	background-color:#fff;
+}
+.contact{
+	background-color:#000B3B;
+}
+.footer{
+	padding:30px 0px;
+	background-color:#fff;
+}
+.divider{
+	width:80px;
+	height:3px;
+	background-color:#314186;
+	margin-bottom:20px;
+}
+.footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.footer .f-menu i{
+	color:#314186;
+	margin-right:5px;
+	font-size:14px;
+}
+.footer .f-menu a{
+	color:#000;
+	text-decoration:none;
+}
+.footer .request input, .footer textarea{
+		width:400px;
+		border:1px colid #ccc;
+		padding:10px;
+		margin-bottom:10px;
+}
+.service .product img{
+	width:100%;
+}
+.service .info{
+	position:absolute;
+	bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	width:100%;
+	padding:10px;
+}
+.service .product{
+	position:relative;
+}
+.swiper img{
+	width:100%;
+	height: 800px;
+	object-fit: cover;
+}
+.AboutImage img{
+	width:100%;
+	height:480px;
+	border-radius:50%;
+	object-fit:cover;
+	padding:100px;
+	z-index: 99;
+    position: relative;
+}
+.AboutBox{
+	border-radius:20%;
+	background-color:white;
+	height:420px;
+	position:relative;
+	top:80px;
+	right:200px;
+}
+.ContactBox{
+	border-radius:10%;
+	background-color:white;
+	height:500px;
+	position:relative;
+	top:100px;
+	left:200px;
+}
+.ContactImage img{
+	width:100%;
+	height:620px;
+	border-radius:50%;
+	object-fit:cover;
+	padding:100px;
+	z-index: 99;
+    position: relative;
+}
+.wid{
+	text-align:center;
+}
+.logo{
+	width:2px;
+	height:2px;
+}
+body{
+	background-color:#fff;
+}
+.MenuText a{
+	color:white !important;
+}
+.menu{
+	position:sticky;
+	top:0;
+}
